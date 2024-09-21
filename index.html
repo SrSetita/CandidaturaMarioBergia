@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidatura para Delegado</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#goals">Objetivos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <h1>¡Hola! Soy Mario Bergia Paredes</h1>
+        <p>Candidato para Delegado</p>
+        <a href="https://aplicaciones.uc3m.es/votaciones/elecciones-a-representantes-de-estudiantes-de-grado-20242025" class="cta-button" target="_blank" rel="noopener noreferrer">¡Vota Aquí!</a>
+    </section>
+    
+    <section id="about">
+        <h2>Sobre mí</h2>
+        <p class="text-limit">Soy Mario Bergia Paredes, alumno de la carrera de ingeniería informática en la UC3M. 
+            En esta candidatura no busco convencerles de que me voten, simplemente pretendo presentarles mis objetivos y, si son afines a sus necesidades universitarias, 
+            ofrecerles mi servicio como delegado si llego a salir elegido.
+            
+            <br><br>
+            
+            Me gustaría ofrecerles también información adicional sobre mí. Tengo 18 años y estudié en el IES Federico García Lorca de Las Rozas.
+            Mi mayor pasión es la música, tanto escucharla como hacerla, aunque también me gusta desde hace tiempo la informática en muchos de sus campos.
+            
+            <br><br>
+            
+            Desde los 12 años comencé a montar ordenadores por mi cuenta para aprender y ayudar a gente, y algo más adelante comencé con la programación,
+            aunque esto lo he hecho de manera más escasa. También me gusta mucho montar en skate, aunque más a modo de movilidad que para hacer trucos, soy muy malo
+            para esas cosas. 
+            
+            <br><br>
+            
+            Por último, y para mí lo más importante, soy una persona muy sociable que disfruta conociendo gente y hablando con ellos, así
+            que os invito a socializar conmigo si me ven por la facultad, no tengo ninguna duda de que nos llevaremos genial.</p>        
+    </section>
+    
+    <section id="goals">
+        <h2>Objetivos</h2>
+        <ul>
+            <li class="text-limit"><span style="font-weight: bold;">Objetivo 1:</span> Mejorar la comunicación entre estudiantes y profesores.</li>
+            <li class="text-limit"><span style="font-weight: bold;">Objetivo 2:</span> Organizar eventos y actividades extracurriculares, así como salidas o quedadas entre compañeros con fines académicos o no tan académicos ;b.</li>
+            <li class="text-limit"><span style="font-weight: bold;">Objetivo 3:</span> Facilitar el acceso a recursos académicos. </li>
+            <li class="text-limit"><span style="font-weight: bold;">Objetivo 4:</span> Ayudar a mis compañeros de grado, en la medida de lo posible, con cualquier obstáculo durante el curso académico. </li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Contacto</h2>
+        <ul>
+            <li class="text-limit"><span style="font-weight: bold;">Email de contacto:</span> 100550292@alumnos.uc3m.es</li>
+            <li class="text-limit"><span style="font-weight: bold;">Ubicación:</span> De Lunes a Jueves por las tardes en el campus de Colmenarejo de la UC3M.</li>
+        </ul>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Mario Bergia Paredes. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const nav = document.querySelector('nav');
+            nav.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
